@@ -16,6 +16,7 @@ function App() {
   };
   return (
     <>
+      <h1>Lottery</h1>
       <Lottery n={3} winningCondition={winCondition}></Lottery>
     </>
   );

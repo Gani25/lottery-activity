@@ -18,7 +18,6 @@ export default function Lottery({ n, winningCondition }) {
 
   return (
     <>
-      <h1>Lottery</h1>
       <Ticket ticket={ticket} />
       <br />
       {/* <button onClick={buyTicket}>Buy New Ticket</button> */}
